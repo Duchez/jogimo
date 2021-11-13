@@ -131,7 +131,7 @@ body {
     padding-top: 12px;
     margin: 0;
     text-align: center;
-    height: 528px;
+    height: 580px;
     width: auto;
     background-color: white;
 }
@@ -142,18 +142,19 @@ body {
     margin: 0;
 }
 
-.projects-section p {
+.projects-paragraph {
     font-size: 21px;
     padding: 0;
-    padding-bottom: 12px;
+    padding-bottom: 2px;
     margin: 0;
 }
 
-.project-images {
+.project-image_container {
     display: inline-block;
     padding: 0;
+    padding-top: 12px;
     width: 19.5%;
-    /* height: 90%; */
+    height: 100%;
     border-top: 0px;
     border-bottom: 0px;
     vertical-align: middle;
@@ -161,10 +162,22 @@ body {
 
 .project-image {
     width: 349px;
-    height: 60%;
+    height: 198px;
     border-radius: 3px;
     margin: 0;
     padding: 0;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+    transition: transform ease-in-out 0.2s;
+}
+
+.project-image:hover {
+    transform: scale(1.5);
+}
+
+.project-image_title {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
 }
 
 .values-section {
@@ -234,7 +247,7 @@ body {
     font-size: 21px;
 }
 
-.services-images {
+.services-image__container {
     background-color: white;
     text-align: center;
     padding: 8px;
