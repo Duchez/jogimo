@@ -163,7 +163,7 @@ body {
 .project-image {
     width: 349px;
     height: 198px;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: 0;
     padding: 0;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
@@ -178,6 +178,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
+    text-align: center;
 }
 
 .values-section {
